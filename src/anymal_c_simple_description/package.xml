@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+
+  <name>anymal_c_simple_description</name>
+    <version>1.0.12</version>
+    <description>ANYmal C Description Package</description>
+    <maintainer email="davide.debenedittis@gmail.com">Davide De Benedittis</maintainer>
+    <maintainer email="lisler@anybotics.com">Linus Isler</maintainer>
+    <maintainer email="rdiethelm@anybotics.com">Remo Diethelm</maintainer>
+
+    <license>BSD-3</license>
+
+    <url>https://github.com/ddebenedittis/anymal_c_simple_description</url>
+    <author email="lisler@anybotics.com">Linus Isler</author>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <exec_depend>joint_state_publisher</exec_depend>
+    <exec_depend>joint_state_publisher_gui</exec_depend>
+    <exec_depend>robot_state_publisher</exec_depend>
+    <exec_depend>rviz2</exec_depend>
+    <exec_depend>xacro</exec_depend>
+
+    <!-- <exec_depend>robot_control</exec_depend> -->
+
+    <test_depend>ament_lint_auto</test_depend>
+    <test_depend>ament_lint_common</test_depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+
+</package>
