@@ -4,7 +4,7 @@
 
 A simple repo for displaying the ANYmal robot with a point cloud generated from a ply file.
 
-<img src="https://raw.githubusercontent.com/ddebenedittis/media/main/display_anymal_lidar/img/cover.png">
+<img src="https://raw.githubusercontent.com/ddebenedittis/media/main/display_anymal_lidar/cover.png">
 
 ## Installation with Docker
 
